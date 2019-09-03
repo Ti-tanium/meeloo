@@ -1,0 +1,73 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"miniprogramRoot": "dist/wx/",
+	"compileType": "miniprogram",
+	"appid": "wx454cb5b9ed999e70",
+	"projectname": "meeloo",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 3,
+			"list": [
+				{
+					"id": -1,
+					"name": "home",
+					"pathName": "pages/home/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "choice",
+					"pathName": "pages/choice/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "contest-signup",
+					"pathName": "pages/contest-signup/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "preview",
+					"pathName": "pages/preview/main",
+					"query": "info={\"name\":\"刘琦嘉\",\"birthday\":{\"year\":2019,\"month\":9,\"day\":2},\"startPaintingDay\":{\"year\":2019,\"month\":9},\"photoURL\":\"http://tmp/wxd0afacdab563c606.o6zAJs9WOc_0No4LsMzYDvUT3SQk.G34HpX1xeYiB769eceea010208635b61e98b63a36178.jpg\",\"gardianName\":\"\",\"gardianRelation\":\"父子\",\"phone\":\"\",\"email\":\"\",\"area\":\"\",\"advisor\":\"\",\"address\":\"\",\"compositionName\":\"\",\"category\":\"环境保护\",\"compositionUrl\":\"http://tmp/wx454cb5b9ed999e70.o6zAJs9WOc_0No4LsMzYDvUT3SQk.2qfF5NCagGe0482a3f5b17cfb7923fb8caef2457d96f.png\",\"description\":\"说明是黑底白字，还是加个白色的蒙版黑字的说明是黑底白字，还是加个白色的蒙版黑字的说明是黑底白字，还是加个白色的蒙版黑字的说明是黑底白字，还是加个白色的蒙版黑字的说明是黑底白字，还是加个白色的蒙版黑字的说明是黑底白字，还是加个白色的蒙版黑字的说明是黑底白字，还是加个白色的蒙版黑字的说明是黑底白字，还是加个白色的蒙版黑字的说明是黑底白字，还是加个白色的蒙版黑字的说明是黑底白字，还是加个白色的蒙版黑字的\"}",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "thank",
+					"pathName": "pages/thanks/main",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

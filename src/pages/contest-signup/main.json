@@ -1,0 +1,9 @@
+{
+    "navigationBarTitleText":"报名信息填写",
+    "usingComponents":{
+        "van-cell-group":"/static/vant/cell-group/index",
+        "van-field":"/static/vant/field/index",
+        "van-datetime-picker":"/static/vant/datetime-picker/index",
+        "van-popup":"/static/vant/popup/index"
+    }
+}
