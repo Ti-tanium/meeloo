@@ -109,13 +109,7 @@
             :value="signupInfo.email"
             @change="onChangeEmail"
             />
-          <van-field
-            label="区域："
-            :required='true'
-            placeholder="请输入常住省、市、区"
-            :value="signupInfo.area"
-            @change="onChangeArea"
-            />
+          <city-picker @selected="selectCity"></city-picker>
           <van-field
             label="地址："
             :required='true'
@@ -318,8 +312,10 @@ export default {
     },
     onChangeGardianName (e) {
       this.signupInfo.gardianName = e.mp.detail
+    },
+    selectCity (e) {
+      this.signupInfo.area = e.mp.detail.province + e.mp.detail.city + e.mp.detail.county
     }
-
   }
 }
 </script>
