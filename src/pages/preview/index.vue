@@ -7,28 +7,10 @@
 
           <image :src="signupInfo.compositionUrl" alt="" class="composition"/>
           <div class="blackboard"></div>
-            <!-- <div class="back"></div> -->
 
-            <!-- <div class="basicInfo-wrap">
-              <div class="basic-info">{{signupInfo.name}}</div>
-              <div class="basic-info">年龄：{{currentYear-signupInfo.birthday.year}}</div>
-              <div class="basic-info">画龄：{{currentYear-signupInfo.startPaintingDay.year}}</div>
-            </div>
-             -->
             <div :class='{description_wrap:true, emptyDescription:signupInfo.description==""}'>
               {{signupInfo.description}}
             </div>
-
-            <!-- <div class="stamp-wrap">
-              <div class="stamp">
-                <span class="word" id="world">World</span>
-                <span class="word" id="cup">Cup</span>
-                <span class="word" id="art">Art</span>
-                <span class="word" id="twenty">2020</span>
-                <span class="char" id="eight">第八届</span>
-              </div>
-            </div> -->
-          
 
         </div>
         <div class="info">姓名：{{signupInfo.name}}</div>
@@ -144,39 +126,6 @@ export default {
 .emptyDescription{
   display: none;
 }
-/* .word{
-  position: absolute;
-  font-weight: bolder;
-  color: #7BD4E6;
-  font-size: 16px;
-  z-index: 0;
-}
-.char{
-  position: absolute;
-  color: #7BD4E6;
-  z-index: 0;
-} */
-/* #world{
-  top: 550rpx;
-  right: 220rpx;
-}
-#cup{
-  top: 585rpx;
-  right: 200rpx
-}
-#art{
-  top: 620rpx;
-  right: 180rpx;
-}
-#twenty{
-  top: 570rpx;
-  right: 105rpx; 
-}
-#eight{
-  top: 630rpx;
-  right: 80rpx;
-  font-size: 14px
-} */
 
 .first{
   margin-bottom: 4rpx;
